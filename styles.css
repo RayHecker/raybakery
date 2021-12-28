@@ -1,0 +1,74 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(184, 182, 182);
+
+    margin:0;
+    padding: 0;
+}
+header {
+    background: black;
+    background-image: url("images/hero.png");
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+section {
+    background: white;
+    color: grey;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+div {
+    background: rgb(211, 211, 211);
+    margin:auto;
+    width: 100px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block; 
+    margin-right: 20px;
+    font-family: sans-serif;
+    padding: 20px 0px 0px 0px
+}
+a {
+    text-decoration: none;
+    color: rgb(151, 151, 184);
+    font-size: 1rem;
+}
+a:hover {
+    color: rgb(150, 150, 233);
+}
+a:active {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+h1 {
+    color: white;
+}
+
+header .logo a {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: inline-block;
+    height: 90px;
+    width:200px;
+    position: relative;
+    top: -17px;
+    text-indent: -999999999px;
+}
